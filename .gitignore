@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local environment and secrets
+.venv/
+.env
+
+# Tool caches and reports
+.ruff_cache/
+.pytest_cache/
+.ty/
+.coverage*
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Project runtime data
+runtime/
+
+# macOS
+.DS_Store
